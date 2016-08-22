@@ -29,6 +29,23 @@ namespace Hackerrank.CSharp.Utils
             return x;
         }
 
+        public static void Swap(ref int a, ref int b)
+        {
+            var temp = a;
+            a = b;
+            b = temp;
+        }
+
+        public static void Print(int[] arr, int pos)
+        {
+            if (pos == arr.Length)
+                return;
+
+            Console.WriteLine(arr[pos] + " ");
+
+            Print(arr, pos + 1);
+        }
+
         public static long ComputeGreatCommonDivisor(long a, long b)
         {
             long x = Math.Max(a, b);

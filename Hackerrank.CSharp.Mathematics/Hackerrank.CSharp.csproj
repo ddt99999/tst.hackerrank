@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Codility\SameNumberOccurenceCombination.cs" />
     <Compile Include="Core\IApplication.cs" />
+    <Compile Include="DataStructure\ReverseArray.cs" />
     <Compile Include="Mathematics\PossiblePath.cs" />
     <Compile Include="Mathematics\Restaurant.cs" />
     <Compile Include="Mathematics\SherlockAndDivisor.cs" />
@@ -48,6 +50,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\MathHelper.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
