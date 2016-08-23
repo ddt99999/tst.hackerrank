@@ -43,6 +43,7 @@
     <Compile Include="Codility\SameNumberOccurenceCombination.cs" />
     <Compile Include="Core\IApplication.cs" />
     <Compile Include="DataStructure\ReverseArray.cs" />
+    <Compile Include="DataStructure\SparseArray.cs" />
     <Compile Include="Mathematics\PossiblePath.cs" />
     <Compile Include="Mathematics\Restaurant.cs" />
     <Compile Include="Mathematics\SherlockAndDivisor.cs" />
